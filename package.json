@@ -9,9 +9,17 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreJI95/team-profile-generator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreJI95/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/DreJI95/team-profile-generator#readme",
   "dependencies": {
     "inquirer": "^8.0.0"
   },
