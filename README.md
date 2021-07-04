@@ -1,4 +1,6 @@
 
+  ![GitHub](https://img.shields.io/badge/license-MIT-blue)
+    
   # Team Profile Generator
 
   # Table of Contents
