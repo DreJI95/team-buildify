@@ -27,7 +27,8 @@
 
   # Tests
      Recorded result: https://github.com/DreJI95/team-profile-generator/tree/main/recordings
-     Sample screenshot: ![image](https://user-images.githubusercontent.com/76451565/124402060-a8185100-dcfb-11eb-8609-1f1124c6dbd8.png)
+     Sample screenshot: 
+     ![image](https://user-images.githubusercontent.com/76451565/124402060-a8185100-dcfb-11eb-8609-1f1124c6dbd8.png)     
 
   # Questions?
 
