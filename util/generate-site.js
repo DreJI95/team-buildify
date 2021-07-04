@@ -1,9 +1,8 @@
 const fs = require('fs');
-const pageData = require('./page-template');
 
-const writeFile = fileContent => {
+const writeHtmlFile = fileContent => {
     return new Promise((resolve, reject) => {
-      fs.writeFile('../dist/index.html', fileContent, err => {
+      fs.writeFile('./dist/index.html', fileContent, err => {
         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
           reject(err);
@@ -20,9 +19,9 @@ const writeFile = fileContent => {
     });
   };
 
-const copyFile = fileContent => {
+const copyCssFile = fileContent => {
     return new Promise((resolve,reject) => {
-      fs.copyFile('../src/css/style.css', '../dist/css/style.css', err => {
+      fs.copyFile('./src/css/style.css', './dist/css/style.css', err => {
           // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
       if (err) {
           reject(err);
@@ -39,4 +38,4 @@ const copyFile = fileContent => {
   }
 )};
 
-module.exports = { writeFile, copyFile };
+module.exports = { writeHtmlFile, copyCssFile };
