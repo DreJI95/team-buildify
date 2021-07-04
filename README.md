@@ -26,7 +26,7 @@
      MIT: https://choosealicense.com/licenses/mit/
 
   # Tests
-     N/A
+     Recorded result: https://github.com/DreJI95/team-profile-generator/tree/main/recordings
 
   # Questions?
 
