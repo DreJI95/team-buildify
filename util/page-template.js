@@ -16,13 +16,13 @@ const generateMain = function (employeeList) {
              <h5 emp-role>${employeeList[i].getRole()}</h5></h5>
              <ul class="list-group list-group-flush">
              <li class="list-group-item id">ID: ${employeeList[i].getId()}</li>
-             <li class="list-group-item email">Email: ${employeeList[i].getEmail()}</li>`;
+             <li class="list-group-item email">Email: <a href="mailto:${employeeList[i].getEmail()}">${employeeList[i].getEmail()}</a></li>`;
 
         if (employeeList[i].getRole() === 'Manager'){
             mainEmployees += `<li class="list-group-item office-number">Office number: ${employeeList[i].getOfficeNumber()}</li>`;
         }
         else if (employeeList[i].getRole() === 'Engineer'){
-            mainEmployees += `<li class="list-group-item github">GitHub profile: ${employeeList[i].getGitHub()}</li>`;
+            mainEmployees += `<li class="list-group-item github">GitHub profile: <a href="https://github.com/${employeeList[i].getGitHub()}">${employeeList[i].getGitHub()}</a></li>`;
         }
         else if (employeeList[i].getRole() === 'Intern'){
             mainEmployees += `<li class="list-group-item school">School: ${employeeList[i].getSchool()}</li>`;
