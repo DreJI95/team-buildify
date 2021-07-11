@@ -28,7 +28,8 @@
      MIT: https://choosealicense.com/licenses/mit/
 
   # Tests
-    Recorded result: https://drive.google.com/file/d/1OMVjSiHKf6sn90BsZuwUxYPRVajrH_y8/view?usp=sharing
+    Recorded result: 
+   https://drive.google.com/file/d/1OMVjSiHKf6sn90BsZuwUxYPRVajrH_y8/view?usp=sharing
      Sample screenshot: 
    ![image](https://user-images.githubusercontent.com/76451565/125205946-92061580-e252-11eb-8b0e-19819ca04495.png)     
 
