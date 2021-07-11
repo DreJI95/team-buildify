@@ -1,7 +1,7 @@
 
   ![GitHub](https://img.shields.io/badge/license-MIT-blue)
     
-  # Team Profile Generator
+  # Team Buildify
 
   # Table of Contents
   * [Description](#description)
